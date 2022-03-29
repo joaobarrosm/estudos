@@ -13,7 +13,6 @@ import java.util.Scanner;
 public class Estudos {
   
   public static void main(String[] args) {
-    
     try (Scanner entrada = new Scanner(System.in)) {
       // vamos solicitar o peso e a altura da pessoa
      
