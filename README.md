@@ -7,14 +7,18 @@ package estudos;
  
 import java.util.Scanner;
  
+
 public class Estudos {
+  
   public static void main(String[] args) {
+    
     try (Scanner entrada = new Scanner(System.in)) {
       // vamos solicitar o peso e a altura da pessoa
-      System.out.print("Informe seu peso: ");
-      double peso = Double.parseDouble(entrada.nextLine());
-      System.out.print("Informe sua altura: ");
-      double altura = Double.parseDouble(entrada.nextLine()); 
+     
+     System.out.print("Informe seu peso: ");
+     double peso = Double.parseDouble(entrada.nextLine());
+     System.out.print("Informe sua altura: ");
+     double altura = Double.parseDouble(entrada.nextLine()); 
        
       // vamos calcular o IMC
       double imc = peso / (altura * altura);
